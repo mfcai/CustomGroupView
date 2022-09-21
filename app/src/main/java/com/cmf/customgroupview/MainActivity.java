@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.cmf.customgroupview.R;
 import com.cmf.customgroupview.activity.MyRecycleViewActivity;
+import com.cmf.customgroupview.activity.VerticalDragViewActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
     	switch (view.getId()) {
             case R.id.btn_group_default:
                 startActivity(new Intent(this, MyRecycleViewActivity.class));
+                break;
+            case R.id.btn_drag_view:
+                startActivity(new Intent(this, VerticalDragViewActivity.class));
                 break;
 
     	}
