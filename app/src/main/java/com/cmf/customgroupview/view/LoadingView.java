@@ -8,6 +8,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
@@ -113,5 +114,17 @@ public class LoadingView extends LinearLayout {
             }
         });
         animatorSet.start();
+    }
+
+    public void destroyView(){
+        shapeView.clearAnimation();
+        shaderView.clearAnimation();
+        ViewGroup parent = (ViewGroup)getParent();
+        if(parent != null){
+            parent.removeAllViews();
+            removeAllViews();
+        }
+
+
     }
 }
