@@ -16,5 +16,9 @@
         </activity>
         <activity android:name=".activity.MyRecycleViewActivity"/>
         <activity android:name=".activity.VerticalDragViewActivity"/>
+        <activity android:name=".activity.BottomDrawerActivity"/>
+        <activity android:name=".activity.DragActivity"/>
+        <activity android:name=".activity.YoutubeActivity"/>
+        <activity android:name=".activity.LoadingCartonActivity"/>
     </application>
 </manifest>

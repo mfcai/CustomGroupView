@@ -24,5 +24,40 @@
         android:layout_marginRight="15dp"
         android:text="自定义拖拽菜单"
         android:onClick="clickEvent"/>
-
+    <Button
+        android:id="@+id/btn_bottom_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="固定式底部上滑菜单"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/buttonDragEdge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="DragEdg"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/buttonYoutube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="Youtube拖拽"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/buttonLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="加载动画演示"
+        android:onClick="clickEvent"/>
 </LinearLayout>
