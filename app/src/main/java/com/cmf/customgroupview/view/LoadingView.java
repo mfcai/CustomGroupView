@@ -121,7 +121,7 @@ public class LoadingView extends LinearLayout {
         shaderView.clearAnimation();
         ViewGroup parent = (ViewGroup)getParent();
         if(parent != null){
-            parent.removeAllViews();
+            parent.removeView(this);
             removeAllViews();
         }
 

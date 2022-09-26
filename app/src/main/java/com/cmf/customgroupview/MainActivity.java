@@ -16,10 +16,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.cmf.customgroupview.R;
 import com.cmf.customgroupview.activity.BottomDrawerActivity;
 import com.cmf.customgroupview.activity.DragActivity;
+import com.cmf.customgroupview.activity.HuaWeiWeatherActivity;
 import com.cmf.customgroupview.activity.LoadingCartonActivity;
 import com.cmf.customgroupview.activity.MyRecycleViewActivity;
 import com.cmf.customgroupview.activity.VerticalDragViewActivity;
 import com.cmf.customgroupview.activity.YoutubeActivity;
+import com.cmf.customgroupview.view.HuaWeiWeatherView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -53,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.buttonLoading:
                 startActivity(new Intent(this, LoadingCartonActivity.class));
+                break;
+            case R.id.buttonweatherview:
+                startActivity(new Intent(this, HuaWeiWeatherActivity.class));
                 break;
 
 

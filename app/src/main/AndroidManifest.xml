@@ -20,5 +20,6 @@
         <activity android:name=".activity.DragActivity"/>
         <activity android:name=".activity.YoutubeActivity"/>
         <activity android:name=".activity.LoadingCartonActivity"/>
+        <activity android:name=".activity.HuaWeiWeatherActivity"/>
     </application>
 </manifest>

@@ -60,4 +60,13 @@
         android:layout_marginRight="15dp"
         android:text="加载动画演示"
         android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/buttonweatherview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="仿华为天气绘制刻度盘"
+        android:onClick="clickEvent"/>
 </LinearLayout>
