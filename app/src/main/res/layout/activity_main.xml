@@ -25,13 +25,13 @@
         android:text="自定义拖拽菜单"
         android:onClick="clickEvent"/>
     <Button
-        android:id="@+id/btn_bottom_drawer"
+        android:id="@+id/btn_clock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
-        android:text="固定式底部上滑菜单"
+        android:text="自定义时钟"
         android:onClick="clickEvent"/>
     <Button
         android:id="@+id/buttonDragEdge"
@@ -68,5 +68,14 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:text="仿华为天气绘制刻度盘"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/buttonAnchorview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="ScrollVieww实现锚点定位"
         android:onClick="clickEvent"/>
 </LinearLayout>

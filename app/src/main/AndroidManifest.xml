@@ -21,5 +21,7 @@
         <activity android:name=".activity.YoutubeActivity"/>
         <activity android:name=".activity.LoadingCartonActivity"/>
         <activity android:name=".activity.HuaWeiWeatherActivity"/>
+        <activity android:name=".activity.ClockActivity"/>
+        <activity android:name=".activity.TabScrollActivity"/>
     </application>
 </manifest>
