@@ -1,0 +1,36 @@
+<com.cmf.customgroupview.view.DragLayout2 xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/fl_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="45dp"
+        android:background="#f43">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="这是顶面板" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="50dp"
+        android:background="#ae3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="这是主面板" />
+    </LinearLayout>
+</com.cmf.customgroupview.view.DragLayout2>

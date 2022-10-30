@@ -16,6 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.cmf.customgroupview.R;
 import com.cmf.customgroupview.activity.BottomDrawerActivity;
 import com.cmf.customgroupview.activity.ClockActivity;
+import com.cmf.customgroupview.activity.CommonRecyclerViewActivity;
+import com.cmf.customgroupview.activity.Drag2Activity;
 import com.cmf.customgroupview.activity.DragActivity;
 import com.cmf.customgroupview.activity.HuaWeiWeatherActivity;
 import com.cmf.customgroupview.activity.LoadingCartonActivity;
@@ -63,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.buttonAnchorview:
                 startActivity(new Intent(this, TabScrollActivity.class));
+                break;
+            case R.id.btn_drag2_view:
+                startActivity(new Intent(this, Drag2Activity.class));
+                break;
+            case R.id.btn_common_adp:
+               // startActivity(new Intent(this, CommonRecyclerViewActivity.class));
                 break;
 
 

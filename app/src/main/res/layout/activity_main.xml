@@ -78,4 +78,23 @@
         android:layout_marginRight="15dp"
         android:text="ScrollVieww实现锚点定位"
         android:onClick="clickEvent"/>
+
+    <Button
+        android:id="@+id/btn_drag2_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="自定义拖拽功能"
+        android:onClick="clickEvent"/>
+    <Button
+        android:id="@+id/btn_common_adp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="通用的Adapter"
+        android:onClick="clickEvent"/>
 </LinearLayout>
